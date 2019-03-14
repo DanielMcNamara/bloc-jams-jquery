@@ -1,4 +1,7 @@
 class Helper {
-  const helper =
+  constructor (){
+    this.playPauseAndUpdate = player.playPause('song')
+  }
 }
-}
+
+const helper = .playPauseAndUpdate
