@@ -1,7 +1,9 @@
 class Helper {
-  constructor (){
-    this.playPauseAndUpdate = player.playPause('song')
+  playPauseAndUpdate(song){
+    // update total time in interface
+    player.playPause(song)
   }
+
 }
 
-const helper = .playPauseAndUpdate
+const helper = new Helper();
