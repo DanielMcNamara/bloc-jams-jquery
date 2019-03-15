@@ -1,3 +1,4 @@
+
 {
   album.songs.forEach( (song, index) => {
     song.element = $(`
